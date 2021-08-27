@@ -2,7 +2,7 @@
   "name": "redditcount",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "node-fetch": "^2.6.1"
+  },
+  "engines": {
+    "node": "15.8.0"
   }
 }
