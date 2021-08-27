@@ -8,7 +8,7 @@
   },
   "author": "msx47",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "node-fetch": "^2.6.1"
   }
 }
