@@ -1,3 +1,5 @@
+// Please ignore this file. It was hosted on a European instance as aproxy for when a subreddit was blocked in m country
+
 const fetch = require("node-fetch");
 const express = require("express");
 
@@ -14,7 +16,7 @@ app.post("/api/uri", async (req, res) => {
     res.json(json);
     res.status(500);
   } catch (error) {
-    res.json({ error: "Sum ting wong" });
+    res.json({ error: "Unknown error" });
     res.status(500);
   }
 });
